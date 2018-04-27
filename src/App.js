@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header leftIcon="menu" rightIcon="search" title="Open day"/>
       </div>
     );
   }

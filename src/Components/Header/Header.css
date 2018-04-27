@@ -1,3 +1,41 @@
 header {
- display: flex;   
+ display: flex;
+ padding-right: 24px;
+ padding-left: 24px;
+ box-sizing: border-box;
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 6px;
+ color: rgba(0,0, 0, 0.86);
+}
+
+header > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    height:64px;
+    line-height: 64px;
+    margin:0;
+}
+
+header > :nth-child(3) {
+    margin-left: auto;
+}
+
+header > div {
+    line-height: 64px;
+}
+
+header > i {
+    margin-left: -16px;
+    height: 48px;
+}
+
+header > button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 12px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }
